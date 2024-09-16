@@ -210,6 +210,15 @@
         <mxCell id="x0cvvJsSu27vA0oa_3h0-2" value="Barrel Plug Power in" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="720" y="270" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="HpbLE3dxOEh4a_S6CJni-1" value="NeoPixel" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="40" y="570" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HpbLE3dxOEh4a_S6CJni-2" value="Buzzer" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="210" y="520" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HpbLE3dxOEh4a_S6CJni-3" value="LED" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="390" y="535" width="80" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
