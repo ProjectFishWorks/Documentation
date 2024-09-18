@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.13">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15" version="24.7.14">
   <diagram name="Page-1" id="OL-ri_v8O1SVaGKDePar">
-    <mxGraphModel dx="1648" dy="425" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2043" dy="809" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -132,7 +132,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="XrycKpvrp2F0hZC2AMQf-48" value="&lt;div&gt;5.0V&lt;/div&gt;225mA" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="XrycKpvrp2F0hZC2AMQf-47" vertex="1" connectable="0">
+        <mxCell id="XrycKpvrp2F0hZC2AMQf-48" value="&lt;div&gt;5.0V&lt;/div&gt;475mA" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="XrycKpvrp2F0hZC2AMQf-47" vertex="1" connectable="0">
           <mxGeometry x="0.0809" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -143,7 +143,7 @@
         <mxCell id="XrycKpvrp2F0hZC2AMQf-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="XrycKpvrp2F0hZC2AMQf-32" target="XrycKpvrp2F0hZC2AMQf-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XrycKpvrp2F0hZC2AMQf-36" value="3.3V&lt;div&gt;500mA&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="XrycKpvrp2F0hZC2AMQf-34" vertex="1" connectable="0">
+        <mxCell id="XrycKpvrp2F0hZC2AMQf-36" value="3.3V&lt;div&gt;250mA&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="XrycKpvrp2F0hZC2AMQf-34" vertex="1" connectable="0">
           <mxGeometry x="-0.1429" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -151,12 +151,12 @@
         <mxCell id="XrycKpvrp2F0hZC2AMQf-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="XrycKpvrp2F0hZC2AMQf-32" target="XrycKpvrp2F0hZC2AMQf-40" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XrycKpvrp2F0hZC2AMQf-49" value="3.3V&lt;div&gt;100mA&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="XrycKpvrp2F0hZC2AMQf-43" vertex="1" connectable="0">
+        <mxCell id="XrycKpvrp2F0hZC2AMQf-49" value="3.3V&lt;div&gt;230mA&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="XrycKpvrp2F0hZC2AMQf-43" vertex="1" connectable="0">
           <mxGeometry x="-0.4281" y="1" relative="1" as="geometry">
             <mxPoint x="27" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XrycKpvrp2F0hZC2AMQf-50" value="3.3V @ 100mA&lt;div&gt;5.0V @ 225mA&lt;br&gt;&lt;div&gt;&lt;div&gt;225mA&amp;nbsp;&lt;/div&gt;&lt;div&gt;(max combined)&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="XrycKpvrp2F0hZC2AMQf-43" vertex="1" connectable="0">
+        <mxCell id="XrycKpvrp2F0hZC2AMQf-50" value="3.3V, 230mA&lt;div&gt;5.0V, 475mA&lt;br&gt;&lt;div&gt;&lt;div&gt;475mA&amp;nbsp;&lt;/div&gt;&lt;div&gt;(max combined)&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="XrycKpvrp2F0hZC2AMQf-43" vertex="1" connectable="0">
           <mxGeometry x="0.4373" y="-1" relative="1" as="geometry">
             <mxPoint x="4" as="offset" />
           </mxGeometry>
