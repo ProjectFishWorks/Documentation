@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.14">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0" version="24.7.17">
   <diagram name="Page-1" id="OL-ri_v8O1SVaGKDePar">
-    <mxGraphModel dx="1732" dy="504" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1892" dy="533" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -217,7 +217,7 @@
           <mxGeometry x="490" y="690" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="HpbLE3dxOEh4a_S6CJni-8" value="System PWR From Barrel plug 24V 4A" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="620" y="70" width="80" height="80" as="geometry" />
+          <mxGeometry x="560" y="100" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="HpbLE3dxOEh4a_S6CJni-10" value="CAN Bus Current Sensing&lt;div&gt;3.3 V&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="620" y="460" width="80" height="80" as="geometry" />
@@ -225,10 +225,10 @@
         <mxCell id="HpbLE3dxOEh4a_S6CJni-11" value="Button?" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="620" y="690" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="fV9_LtwaisOyKF20sLS7-2" value="50m ohm resistor" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="fV9_LtwaisOyKF20sLS7-2" value="50m ohm resistor" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="620" y="350" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="fV9_LtwaisOyKF20sLS7-4" value="smart high side pwr switch&lt;div&gt;ITS428L2&lt;/div&gt;&lt;div&gt;24 V 4A&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;.08-1.5mA&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="fV9_LtwaisOyKF20sLS7-4" value="smart high side pwr switch&lt;div&gt;ITS428L2&lt;/div&gt;&lt;div&gt;24 V 4A&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;.08-1.5mA&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="620" y="200" width="110" height="110" as="geometry" />
         </mxCell>
       </root>
