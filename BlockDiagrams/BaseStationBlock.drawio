@@ -26,7 +26,7 @@
         <mxCell id="oyfi-5hGYGsT8HOiiuwC-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;shape=link;" parent="1" source="oyfi-5hGYGsT8HOiiuwC-1" target="oyfi-5hGYGsT8HOiiuwC-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oyfi-5hGYGsT8HOiiuwC-6" value="24V&lt;div&gt;3.815A&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="oyfi-5hGYGsT8HOiiuwC-5" vertex="1" connectable="0">
+        <mxCell id="oyfi-5hGYGsT8HOiiuwC-6" value="24V&lt;div&gt;3.813A&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="oyfi-5hGYGsT8HOiiuwC-5" vertex="1" connectable="0">
           <mxGeometry x="-0.2929" relative="1" as="geometry">
             <mxPoint y="5" as="offset" />
           </mxGeometry>
@@ -36,7 +36,7 @@
             <mxPoint x="360" y="90" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XrycKpvrp2F0hZC2AMQf-9" value="CAT 5 or 6&lt;div&gt;CAN Bus&lt;/div&gt;&lt;div&gt;24V, 3.815A&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="XrycKpvrp2F0hZC2AMQf-7" vertex="1" connectable="0">
+        <mxCell id="XrycKpvrp2F0hZC2AMQf-9" value="CAT 5 or 6&lt;div&gt;CAN Bus&lt;/div&gt;&lt;div&gt;24V, 3.813A&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="XrycKpvrp2F0hZC2AMQf-7" vertex="1" connectable="0">
           <mxGeometry x="-0.0965" y="-1" relative="1" as="geometry">
             <mxPoint x="-1" y="6" as="offset" />
           </mxGeometry>
@@ -175,7 +175,7 @@
             <mxPoint x="149.99999999999977" y="320" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ekSo-SWd0g9FvmDKu4Mh-37" value="3.3V, 70mA&lt;div&gt;5.0V, 225mA&lt;br&gt;&lt;div&gt;&lt;div&gt;225mA&amp;nbsp;&lt;/div&gt;&lt;div&gt;(max combined)&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ekSo-SWd0g9FvmDKu4Mh-36" vertex="1" connectable="0">
+        <mxCell id="ekSo-SWd0g9FvmDKu4Mh-37" value="3.3V, 69mA&lt;div&gt;5.0V, 225mA&lt;br&gt;&lt;div&gt;&lt;div&gt;225mA&amp;nbsp;&lt;/div&gt;&lt;div&gt;(max combined)&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ekSo-SWd0g9FvmDKu4Mh-36" vertex="1" connectable="0">
           <mxGeometry x="0.2575" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -279,6 +279,16 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="4orKWZVLOyduMUSRoOfS-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="HpbLE3dxOEh4a_S6CJni-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="159.99999999999977" y="510" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4orKWZVLOyduMUSRoOfS-17" value="3.3V 1mA" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4orKWZVLOyduMUSRoOfS-16">
+          <mxGeometry x="0.6298" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="HpbLE3dxOEh4a_S6CJni-10" value="CAN Bus Current Sensing&lt;div&gt;3.3 V&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="380" y="450" width="80" height="80" as="geometry" />
         </mxCell>
@@ -298,7 +308,7 @@
         <mxCell id="ekSo-SWd0g9FvmDKu4Mh-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="fV9_LtwaisOyKF20sLS7-4" target="HpbLE3dxOEh4a_S6CJni-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ekSo-SWd0g9FvmDKu4Mh-4" value="24V, 3.815A" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ekSo-SWd0g9FvmDKu4Mh-3" vertex="1" connectable="0">
+        <mxCell id="ekSo-SWd0g9FvmDKu4Mh-4" value="24V, 3.813A" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ekSo-SWd0g9FvmDKu4Mh-3" vertex="1" connectable="0">
           <mxGeometry x="0.6365" y="1" relative="1" as="geometry">
             <mxPoint x="1" y="11" as="offset" />
           </mxGeometry>
@@ -350,7 +360,7 @@
         <mxCell id="ekSo-SWd0g9FvmDKu4Mh-43" value="CAN&lt;div&gt;Bus&lt;/div&gt;&lt;div&gt;Differential&lt;br&gt;&lt;/div&gt;&lt;div&gt;Pair&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="1" vertex="1" connectable="0">
           <mxGeometry x="280" y="239.99869565217398" as="geometry" />
         </mxCell>
-        <mxCell id="ekSo-SWd0g9FvmDKu4Mh-48" value="24V, 3.815A" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="1" vertex="1" connectable="0">
+        <mxCell id="ekSo-SWd0g9FvmDKu4Mh-48" value="24V, 3.813A" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="1" vertex="1" connectable="0">
           <mxGeometry x="440.00265409787426" y="429.9985827973586" as="geometry" />
         </mxCell>
       </root>
