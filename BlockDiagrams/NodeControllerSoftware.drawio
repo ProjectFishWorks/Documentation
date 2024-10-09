@@ -1,9 +1,15 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15" version="24.7.17">
   <diagram name="Page-1" id="VmMDVZbxvRPuFITGd--x">
-    <mxGraphModel dx="795" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="954" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="18MynhK7BaWYWKZQCdJp-25" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="270" width="700" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="18MynhK7BaWYWKZQCdJp-26" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="520" width="700" height="300" as="geometry" />
+        </mxCell>
         <mxCell id="18MynhK7BaWYWKZQCdJp-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="18MynhK7BaWYWKZQCdJp-1" target="18MynhK7BaWYWKZQCdJp-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -13,16 +19,18 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="18MynhK7BaWYWKZQCdJp-1" value="Read from GPIO&lt;div&gt;(analog or digital)&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="230" y="630" width="100" height="100" as="geometry" />
+          <mxGeometry x="230" y="690" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="18MynhK7BaWYWKZQCdJp-6" value="uint64_t" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="18MynhK7BaWYWKZQCdJp-2" target="18MynhK7BaWYWKZQCdJp-5">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="18MynhK7BaWYWKZQCdJp-6" value="uint64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="18MynhK7BaWYWKZQCdJp-2" target="18MynhK7BaWYWKZQCdJp-5">
+          <mxGeometry x="0.7143" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="18MynhK7BaWYWKZQCdJp-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="18MynhK7BaWYWKZQCdJp-2" target="18MynhK7BaWYWKZQCdJp-15">
+        <mxCell id="18MynhK7BaWYWKZQCdJp-16" value="float or int" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="18MynhK7BaWYWKZQCdJp-2" target="18MynhK7BaWYWKZQCdJp-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="18MynhK7BaWYWKZQCdJp-2" value="Process data&lt;div&gt;(as needed)&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="230" y="480" width="100" height="100" as="geometry" />
+          <mxGeometry x="230" y="540" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="18MynhK7BaWYWKZQCdJp-5" value="&lt;div&gt;Send data to CAN Bus&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="230" y="300" width="100" height="100" as="geometry" />
@@ -30,9 +38,9 @@
         <mxCell id="18MynhK7BaWYWKZQCdJp-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="18MynhK7BaWYWKZQCdJp-7" target="18MynhK7BaWYWKZQCdJp-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="18MynhK7BaWYWKZQCdJp-11" value="uint64_t" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="18MynhK7BaWYWKZQCdJp-9">
+        <mxCell id="18MynhK7BaWYWKZQCdJp-11" value="uint64" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="18MynhK7BaWYWKZQCdJp-9">
           <mxGeometry x="-0.0778" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-1" y="-44" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="18MynhK7BaWYWKZQCdJp-7" value="&lt;div&gt;When data is received from CAN Bus&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
@@ -49,23 +57,39 @@
         <mxCell id="18MynhK7BaWYWKZQCdJp-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="18MynhK7BaWYWKZQCdJp-8" target="18MynhK7BaWYWKZQCdJp-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="18MynhK7BaWYWKZQCdJp-27" value="float or int" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="18MynhK7BaWYWKZQCdJp-24">
+          <mxGeometry x="0.2381" y="-2" relative="1" as="geometry">
+            <mxPoint x="9" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="18MynhK7BaWYWKZQCdJp-8" value="Process data&lt;div&gt;(as needed)&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="760" y="480" width="100" height="100" as="geometry" />
+          <mxGeometry x="760" y="540" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="18MynhK7BaWYWKZQCdJp-12" value="Write to GPIO&lt;div&gt;(digital or PWM&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="760" y="630" width="100" height="100" as="geometry" />
+          <mxGeometry x="760" y="690" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="18MynhK7BaWYWKZQCdJp-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="18MynhK7BaWYWKZQCdJp-15" target="18MynhK7BaWYWKZQCdJp-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="18MynhK7BaWYWKZQCdJp-28" value="bool" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="18MynhK7BaWYWKZQCdJp-18">
+          <mxGeometry x="-0.1083" y="-3" relative="1" as="geometry">
+            <mxPoint x="-3" y="-57" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="18MynhK7BaWYWKZQCdJp-15" value="Check data against alarm set points" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="425" y="480" width="100" height="100" as="geometry" />
+          <mxGeometry x="425" y="540" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="18MynhK7BaWYWKZQCdJp-17" value="&lt;div&gt;Send alert message to CAN Bus&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="425" y="300" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="18MynhK7BaWYWKZQCdJp-23" value="Set alarm setpoints" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="590" y="480" width="100" height="100" as="geometry" />
+          <mxGeometry x="580" y="540" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="18MynhK7BaWYWKZQCdJp-29" value="Node Controller Core Library&amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="200" y="240" width="700" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="18MynhK7BaWYWKZQCdJp-30" value="Device Specific Firmware&amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="200" y="490" width="700" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
