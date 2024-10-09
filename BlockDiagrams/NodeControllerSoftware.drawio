@@ -65,7 +65,7 @@
         <mxCell id="18MynhK7BaWYWKZQCdJp-8" value="Process data&lt;div&gt;(as needed)&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="760" y="540" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="18MynhK7BaWYWKZQCdJp-12" value="Write to GPIO&lt;div&gt;(digital or PWM&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="18MynhK7BaWYWKZQCdJp-12" value="Write to GPIO&lt;div&gt;(digital or PWM)&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="760" y="690" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="18MynhK7BaWYWKZQCdJp-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="18MynhK7BaWYWKZQCdJp-15" target="18MynhK7BaWYWKZQCdJp-17">
