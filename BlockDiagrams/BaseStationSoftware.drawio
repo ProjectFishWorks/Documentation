@@ -1,9 +1,81 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15" version="24.7.17">
   <diagram name="Page-1" id="_69wd4MO4qhwef4OT_Hl">
-    <mxGraphModel>
+    <mxGraphModel dx="795" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="yh2XA47eHOq_oyV-jMpu-8" value="Receive data from CAN Bus" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="200" y="270" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yh2XA47eHOq_oyV-jMpu-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yh2XA47eHOq_oyV-jMpu-11" target="yh2XA47eHOq_oyV-jMpu-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yh2XA47eHOq_oyV-jMpu-11" value="Create alert email" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="345" y="410" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yh2XA47eHOq_oyV-jMpu-13" value="Send email via smtp" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="345" y="270" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yh2XA47eHOq_oyV-jMpu-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yh2XA47eHOq_oyV-jMpu-15" target="yh2XA47eHOq_oyV-jMpu-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yh2XA47eHOq_oyV-jMpu-15" value="Add time to CAN data and create MQTT message" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="200" y="550" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yh2XA47eHOq_oyV-jMpu-20" value="Send MQTT message to broker" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="200" y="670" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yh2XA47eHOq_oyV-jMpu-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yh2XA47eHOq_oyV-jMpu-22" target="yh2XA47eHOq_oyV-jMpu-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yh2XA47eHOq_oyV-jMpu-22" value="MQTT Message received" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="680" y="260" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yh2XA47eHOq_oyV-jMpu-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yh2XA47eHOq_oyV-jMpu-24" target="yh2XA47eHOq_oyV-jMpu-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yh2XA47eHOq_oyV-jMpu-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yh2XA47eHOq_oyV-jMpu-24" target="yh2XA47eHOq_oyV-jMpu-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yh2XA47eHOq_oyV-jMpu-24" value="Is alert&amp;nbsp;&lt;div&gt;message?&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="190" y="400" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="yh2XA47eHOq_oyV-jMpu-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="yh2XA47eHOq_oyV-jMpu-8" target="yh2XA47eHOq_oyV-jMpu-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yh2XA47eHOq_oyV-jMpu-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yh2XA47eHOq_oyV-jMpu-28" target="yh2XA47eHOq_oyV-jMpu-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yh2XA47eHOq_oyV-jMpu-28" value="Is history&lt;div&gt;message?&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="670" y="390" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="yh2XA47eHOq_oyV-jMpu-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yh2XA47eHOq_oyV-jMpu-30" target="yh2XA47eHOq_oyV-jMpu-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yh2XA47eHOq_oyV-jMpu-30" value="Read requested history from SD Card" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="540" y="400" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yh2XA47eHOq_oyV-jMpu-32" value="Send History to MQTT broker" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="540" y="270" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yh2XA47eHOq_oyV-jMpu-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yh2XA47eHOq_oyV-jMpu-34" target="yh2XA47eHOq_oyV-jMpu-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yh2XA47eHOq_oyV-jMpu-34" value="Is manifest&lt;div&gt;message?&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="670" y="520" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="yh2XA47eHOq_oyV-jMpu-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="yh2XA47eHOq_oyV-jMpu-28" target="yh2XA47eHOq_oyV-jMpu-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yh2XA47eHOq_oyV-jMpu-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="yh2XA47eHOq_oyV-jMpu-36" target="yh2XA47eHOq_oyV-jMpu-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yh2XA47eHOq_oyV-jMpu-36" value="Write manifest to SD card" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="810" y="530" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yh2XA47eHOq_oyV-jMpu-38" value="Send manifest to MQTT broker" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="810" y="270" width="80" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
