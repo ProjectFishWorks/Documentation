@@ -1,9 +1,116 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.13">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="Page-1" id="WElpfK99FL_qCwq62b8D">
-    <mxGraphModel>
+    <mxGraphModel dx="2074" dy="1106" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="z8YtpJgYpQzQh1ZrblXN-17" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="240" width="320" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="z8YtpJgYpQzQh1ZrblXN-1" value="On page render" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="80" y="180" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="z8YtpJgYpQzQh1ZrblXN-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="z8YtpJgYpQzQh1ZrblXN-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z8YtpJgYpQzQh1ZrblXN-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="z8YtpJgYpQzQh1ZrblXN-3" target="z8YtpJgYpQzQh1ZrblXN-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z8YtpJgYpQzQh1ZrblXN-3" value="Is MQTT connected?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="70" y="290" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="z8YtpJgYpQzQh1ZrblXN-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="z8YtpJgYpQzQh1ZrblXN-1" target="z8YtpJgYpQzQh1ZrblXN-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z8YtpJgYpQzQh1ZrblXN-7" value="Display login dialog" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="210" y="300" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="z8YtpJgYpQzQh1ZrblXN-8" value="Render Page" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="80" y="420" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="z8YtpJgYpQzQh1ZrblXN-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="z8YtpJgYpQzQh1ZrblXN-10" target="z8YtpJgYpQzQh1ZrblXN-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z8YtpJgYpQzQh1ZrblXN-10" value="On MQTT message received" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="380" y="180" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="z8YtpJgYpQzQh1ZrblXN-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="z8YtpJgYpQzQh1ZrblXN-11" target="z8YtpJgYpQzQh1ZrblXN-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z8YtpJgYpQzQh1ZrblXN-11" value="Store in key value pair dataset" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="380" y="300" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="z8YtpJgYpQzQh1ZrblXN-13" value="Re-render current page" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="380" y="420" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="z8YtpJgYpQzQh1ZrblXN-15" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="160" width="270" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="z8YtpJgYpQzQh1ZrblXN-16" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="160" width="150" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="z8YtpJgYpQzQh1ZrblXN-18" value="MQTT Login" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="50" y="120" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="z8YtpJgYpQzQh1ZrblXN-19" value="MQTT Receive" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="330" y="120" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="z8YtpJgYpQzQh1ZrblXN-20" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;For every parameter on the current page&amp;nbsp;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="510" y="210" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="z8YtpJgYpQzQh1ZrblXN-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="z8YtpJgYpQzQh1ZrblXN-21" target="z8YtpJgYpQzQh1ZrblXN-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z8YtpJgYpQzQh1ZrblXN-21" value="Getter" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="570" y="280" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="z8YtpJgYpQzQh1ZrblXN-22" value="Search for and return requested parameter&amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="570" y="390" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="z8YtpJgYpQzQh1ZrblXN-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="z8YtpJgYpQzQh1ZrblXN-24" target="z8YtpJgYpQzQh1ZrblXN-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z8YtpJgYpQzQh1ZrblXN-24" value="Setter" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="670" y="280" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="z8YtpJgYpQzQh1ZrblXN-25" value="Send parameter to MQTT&amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="670" y="390" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="z8YtpJgYpQzQh1ZrblXN-28" value="Parameters&amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="510" y="180" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="z8YtpJgYpQzQh1ZrblXN-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="z8YtpJgYpQzQh1ZrblXN-29" target="z8YtpJgYpQzQh1ZrblXN-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z8YtpJgYpQzQh1ZrblXN-29" value="On dashboard page render" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="70" y="590" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="z8YtpJgYpQzQh1ZrblXN-30" value="Get manifest file from MQTT broker" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="70" y="700" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="z8YtpJgYpQzQh1ZrblXN-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="z8YtpJgYpQzQh1ZrblXN-32" target="z8YtpJgYpQzQh1ZrblXN-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z8YtpJgYpQzQh1ZrblXN-32" value="When base station or device name changed" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="180" y="590" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="z8YtpJgYpQzQh1ZrblXN-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="z8YtpJgYpQzQh1ZrblXN-33" target="z8YtpJgYpQzQh1ZrblXN-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z8YtpJgYpQzQh1ZrblXN-33" value="Create updated manifest file" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="180" y="700" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="z8YtpJgYpQzQh1ZrblXN-34" value="Send manifest file to MQTT" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="300" y="700" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="z8YtpJgYpQzQh1ZrblXN-39" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="570" width="350" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="z8YtpJgYpQzQh1ZrblXN-40" value="Dashboard Page" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="50" y="535" width="280" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
