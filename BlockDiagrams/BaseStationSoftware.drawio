@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.13">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0" version="24.7.17">
   <diagram name="Page-1" id="_69wd4MO4qhwef4OT_Hl">
-    <mxGraphModel dx="2074" dy="1106" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1584" dy="832" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="N35h9-cBafH8fg99xRr--18" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="770" y="110" width="270" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="N35h9-cBafH8fg99xRr--16" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="70" y="110" width="280" height="530" as="geometry" />
+        </mxCell>
         <mxCell id="yh2XA47eHOq_oyV-jMpu-8" value="On Receive data from CAN Bus" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="100" y="140" width="80" height="80" as="geometry" />
         </mxCell>
@@ -109,7 +115,7 @@
             <mxPoint x="560" y="530" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="N35h9-cBafH8fg99xRr--1" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yh2XA47eHOq_oyV-jMpu-45">
+        <mxCell id="N35h9-cBafH8fg99xRr--1" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="yh2XA47eHOq_oyV-jMpu-45" vertex="1" connectable="0">
           <mxGeometry x="-0.2645" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -138,6 +144,19 @@
         <mxCell id="yh2XA47eHOq_oyV-jMpu-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="yh2XA47eHOq_oyV-jMpu-59" target="yh2XA47eHOq_oyV-jMpu-65" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="C_SSUqJPlWAlHzkZijot-14" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yh2XA47eHOq_oyV-jMpu-66">
+          <mxGeometry x="0.6873" relative="1" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C_SSUqJPlWAlHzkZijot-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yh2XA47eHOq_oyV-jMpu-59" target="C_SSUqJPlWAlHzkZijot-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C_SSUqJPlWAlHzkZijot-25" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="C_SSUqJPlWAlHzkZijot-24">
+          <mxGeometry x="-0.0533" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="yh2XA47eHOq_oyV-jMpu-59" value="Connected to WiFi" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="800" y="240" width="80" height="80" as="geometry" />
         </mxCell>
@@ -145,82 +164,91 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yh2XA47eHOq_oyV-jMpu-61" value="Initialize SD Card" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="800" y="440" width="80" height="80" as="geometry" />
+          <mxGeometry x="800" y="450" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="yh2XA47eHOq_oyV-jMpu-64" value="Initialize CAN Bus&amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="800" y="540" width="80" height="80" as="geometry" />
+          <mxGeometry x="800" y="550" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="yh2XA47eHOq_oyV-jMpu-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="yh2XA47eHOq_oyV-jMpu-65" target="yh2XA47eHOq_oyV-jMpu-61" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yh2XA47eHOq_oyV-jMpu-65" value="Start connection to MQTT Broker" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="800" y="340" width="80" height="80" as="geometry" />
+          <mxGeometry x="800" y="350" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="yh2XA47eHOq_oyV-jMpu-69" value="Trigger LED and buzzer alarm" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+        <mxCell id="yh2XA47eHOq_oyV-jMpu-69" value="Trigger LED, Warning Message (LCD), and buzzer alarm" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="245" y="390" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="N35h9-cBafH8fg99xRr--5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N35h9-cBafH8fg99xRr--2" target="N35h9-cBafH8fg99xRr--3">
+        <mxCell id="N35h9-cBafH8fg99xRr--5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="N35h9-cBafH8fg99xRr--2" target="N35h9-cBafH8fg99xRr--3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="N35h9-cBafH8fg99xRr--2" value="On MQTT Connected" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="950" y="140" width="80" height="80" as="geometry" />
+        <mxCell id="N35h9-cBafH8fg99xRr--2" value="On MQTT Connected" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="1070" y="140" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="N35h9-cBafH8fg99xRr--6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N35h9-cBafH8fg99xRr--3">
+        <mxCell id="N35h9-cBafH8fg99xRr--6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="N35h9-cBafH8fg99xRr--3" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="990" y="340" as="targetPoint" />
+            <mxPoint x="1110" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="N35h9-cBafH8fg99xRr--3" value="Enable CAN Bus power" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="950" y="240" width="80" height="80" as="geometry" />
+        <mxCell id="N35h9-cBafH8fg99xRr--3" value="Enable CAN Bus power" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="1070" y="240" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="N35h9-cBafH8fg99xRr--10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="N35h9-cBafH8fg99xRr--7" target="N35h9-cBafH8fg99xRr--9">
+        <mxCell id="N35h9-cBafH8fg99xRr--10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="N35h9-cBafH8fg99xRr--7" target="N35h9-cBafH8fg99xRr--9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="N35h9-cBafH8fg99xRr--12" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="N35h9-cBafH8fg99xRr--10">
+        <mxCell id="N35h9-cBafH8fg99xRr--12" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="N35h9-cBafH8fg99xRr--10" vertex="1" connectable="0">
           <mxGeometry x="-0.5242" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="N35h9-cBafH8fg99xRr--11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N35h9-cBafH8fg99xRr--7" target="N35h9-cBafH8fg99xRr--8">
+        <mxCell id="N35h9-cBafH8fg99xRr--11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="N35h9-cBafH8fg99xRr--7" target="N35h9-cBafH8fg99xRr--8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="N35h9-cBafH8fg99xRr--13" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="N35h9-cBafH8fg99xRr--11">
+        <mxCell id="N35h9-cBafH8fg99xRr--13" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="N35h9-cBafH8fg99xRr--11" vertex="1" connectable="0">
           <mxGeometry x="0.2686" y="-3" relative="1" as="geometry">
             <mxPoint x="3" y="-5" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="N35h9-cBafH8fg99xRr--7" value="Does manifest&lt;div&gt;file exist?&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="940" y="340" width="100" height="100" as="geometry" />
+        <mxCell id="N35h9-cBafH8fg99xRr--7" value="Does manifest&lt;div&gt;file exist?&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="1060" y="340" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="N35h9-cBafH8fg99xRr--8" value="Send blank manifest file to MQTT" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="950" y="480" width="80" height="80" as="geometry" />
+        <mxCell id="N35h9-cBafH8fg99xRr--8" value="Send blank manifest file to MQTT" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="1070" y="480" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="N35h9-cBafH8fg99xRr--9" value="Send manifest file to MQTT" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="1075" y="350" width="80" height="80" as="geometry" />
+        <mxCell id="N35h9-cBafH8fg99xRr--9" value="Send manifest file to MQTT" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="1195" y="350" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="N35h9-cBafH8fg99xRr--16" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="110" width="280" height="520" as="geometry" />
+        <mxCell id="N35h9-cBafH8fg99xRr--17" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="110" width="400" height="530" as="geometry" />
         </mxCell>
-        <mxCell id="N35h9-cBafH8fg99xRr--17" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="110" width="400" height="520" as="geometry" />
+        <mxCell id="N35h9-cBafH8fg99xRr--19" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="1050" y="110" width="240" height="530" as="geometry" />
         </mxCell>
-        <mxCell id="N35h9-cBafH8fg99xRr--18" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="770" y="110" width="150" height="520" as="geometry" />
-        </mxCell>
-        <mxCell id="N35h9-cBafH8fg99xRr--19" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="930" y="110" width="240" height="520" as="geometry" />
-        </mxCell>
-        <mxCell id="N35h9-cBafH8fg99xRr--20" value="CAN Bus Receive" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" vertex="1" parent="1">
+        <mxCell id="N35h9-cBafH8fg99xRr--20" value="CAN Bus Receive" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" parent="1" vertex="1">
           <mxGeometry x="70" y="80" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="N35h9-cBafH8fg99xRr--21" value="MQTT Receive" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" vertex="1" parent="1">
+        <mxCell id="N35h9-cBafH8fg99xRr--21" value="MQTT Receive" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" parent="1" vertex="1">
           <mxGeometry x="360" y="80" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="N35h9-cBafH8fg99xRr--22" value="Startup" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" vertex="1" parent="1">
+        <mxCell id="N35h9-cBafH8fg99xRr--22" value="Startup" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" parent="1" vertex="1">
           <mxGeometry x="770" y="80" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="N35h9-cBafH8fg99xRr--23" value="MQTT Connected" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" vertex="1" parent="1">
-          <mxGeometry x="930" y="80" width="230" height="30" as="geometry" />
+        <mxCell id="N35h9-cBafH8fg99xRr--23" value="MQTT Connected" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" parent="1" vertex="1">
+          <mxGeometry x="1050" y="80" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C_SSUqJPlWAlHzkZijot-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="C_SSUqJPlWAlHzkZijot-18" target="C_SSUqJPlWAlHzkZijot-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C_SSUqJPlWAlHzkZijot-18" value="Create Locale Hotspot" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="930" y="240" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="C_SSUqJPlWAlHzkZijot-20" value="Reboot" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="930" y="450" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="C_SSUqJPlWAlHzkZijot-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C_SSUqJPlWAlHzkZijot-23" target="C_SSUqJPlWAlHzkZijot-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C_SSUqJPlWAlHzkZijot-23" value="Ask user for Wifi and MQTT credentials" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="930" y="350" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
